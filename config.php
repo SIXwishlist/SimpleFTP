@@ -20,7 +20,7 @@ set_time_limit(120);
 // Trying to establish a connection with the FTP server
  $link = ftp_connect($ftp_server);
 if(!$link)
-    echo "К сожалению, не удается установить соединение с FTP сервером $ftp_server";
+    puterror("К сожалению, не удается установить соединение с FTP сервером $ftp_server");
 
 // Registration on a server
 $login = ftp_login($link, $ftp_user, $ftp_password);
