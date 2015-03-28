@@ -9,6 +9,7 @@
 // Get name of dir that mast be changed
 $dir = $_GET['dir'];
 $name = substr($dir, strrpos($dir, "%")+1);
+$dir = substr($dir, 0, strrpos($dir, "%"));
 $acc = $_GET['acc'];
 
 /*******************************/
