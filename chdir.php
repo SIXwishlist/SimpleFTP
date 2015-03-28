@@ -46,7 +46,7 @@ if(ftp_rename($link, $direct."/".$old, $direct.'/'.$name)){
     eval("\$mode=0$user$group$other;");
     if(ftp_chmod($link, $mode, $direct."/".$name)){
         echo "<html>
-                <meta http-equiv='REFRESH' content='0' url=index.php?dir=$dir />
+                <meta http-equiv='REFRESH' content='0 url=index.php?dir=$dir' />
             </html>";
     }
     else
