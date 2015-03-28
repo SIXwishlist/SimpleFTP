@@ -65,7 +65,7 @@ else {
         echo "
             <html>
                 <head>
-                    <meta http-equiv='refresh' content='0; url='index.php?dir=$dir'>
+                    <meta http-equiv='refresh' content='0; url=index.php?dir=$dir'>
                 </head>
             </html>
     ";
