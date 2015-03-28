@@ -2,18 +2,15 @@
 /**
  * Created by PhpStorm.
  * User: Андрей
- * Date: 26.03.2015
- * Time: 21:10
+ * Date: 28.03.2015
+ * Time: 21:26
  */
-// Trying to establish a connection with the FTP server
-require_once("config.php");
-
 if(!isset($action))
-    $action = "mkdir.php";
+    $action = "upload.php";
 if(!isset($button))
-    $button = "Добавить";
+    $button = "Загрузить";
 if(!isset($title))
-    $title = "Добавление директории";
+    $title = "Загрузка файла в текущую директорию";
 
 // Default access for user
 if(!isset($ur))
@@ -21,7 +18,7 @@ if(!isset($ur))
 if(!isset($uw))
     $uw = "checked";
 if(!isset($ux))
-    $ux = "checked";
+    $ux = "";
 
 // Default access for group
 if(!isset($gr))
@@ -29,7 +26,7 @@ if(!isset($gr))
 if(!isset($gw))
     $gw = "";
 if(!isset($gx))
-    $gx = "checked";
+    $gx = "";
 
 // Default access for other users
 if(!isset($or))
@@ -37,16 +34,17 @@ if(!isset($or))
 if(!isset($ow))
     $ow = "";
 if(!isset($ox))
-    $ox = "checked";
+    $ox = "";
 
 // Get current dir
 if(!isset($dir))
     $dir = $_GET['dir'];
 ?>
 <form action="<?= $action ?>" method="post">
-    <label for="">
-        Название директории: <input type="text" name="name" value="<?= $name?>" />
+    <label for="">Название директории:
+        <input type="text" name="name" value="<?= $name?>" />
     </label>
+
     <label for="">
         Права доступа:
         <input type="checkbox" name="ur" <?= $ur ?> />
