@@ -24,7 +24,7 @@ if(ftp_rmdir($link, $direct)){
     echo "
             <html>
                 <head>
-                    <meta http-equiv='refresh' content='0'; url='index.php?dir=".substr($dir, 0, strrpos($dir, "%"))."'>
+                    <meta http-equiv='refresh' content='0; url='index.php?dir=".substr($dir, 0, strrpos($dir, "%"))."'>
                 </head>
             </html>
     ";
