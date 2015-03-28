@@ -41,10 +41,22 @@ if(!isset($dir))
     $dir = $_GET['dir'];
 ?>
 <form action="<?= $action ?>" method="post">
-    <label for="">Название директории:
-        <input type="text" name="name" value="<?= $name?>" />
-    </label>
-
+    <?php
+    if($action == 'upload.php') {
+        ?>
+        <label for="">Файл:
+            <input type="file" name="name" value="<?= $name ?>"/>
+        </label>
+    <?php
+    }
+    else{
+    ?>
+        <label for="">Файл:
+            <input type="text" name="name" value="<?= $name ?>"/>
+        </label>
+    <?php
+    }
+    ?>
     <label for="">
         Права доступа:
         <input type="checkbox" name="ur" <?= $ur ?> />
@@ -58,7 +70,8 @@ if(!isset($dir))
         <input type="checkbox" name="or" <?= $or ?> />
         <input type="checkbox" name="ow" <?= $ow ?> />
         <input type="checkbox" name="ox" <?= $ox ?> />
-        <input type="submit" value="<?= $button ?>"/>
+
+        <input class="button" type="submit" value="<?= $button ?>"/>
         <input type="hidden" name="dir" value="<?= $dir ?>"/>
         <input type="hidden" name="old" value="<?= $name ?>"/>
     </label>

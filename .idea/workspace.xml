@@ -25,10 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="mkdirform.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mkdirform.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mkdirform.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-21.076923" vertical-offset="540" max-vertical-offset="1241">
+            <state vertical-scroll-proportion="0.7371134" vertical-offset="659" max-vertical-offset="1241">
               <caret line="64" column="62" selection-start-line="64" selection-start-column="62" selection-end-line="64" selection-end-column="62" />
               <folding>
                 <element signature="e#6#88#0#PHP" expanded="true" />
@@ -37,10 +37,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rmdir.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="rmdir.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rmdir.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9347079" vertical-offset="0" max-vertical-offset="663">
+            <state vertical-scroll-proportion="-20.923077" vertical-offset="0" max-vertical-offset="663">
               <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
               <folding>
                 <element signature="e#19#101#0#PHP" expanded="true" />
@@ -54,8 +54,8 @@
       <file leaf-file-name="uploadform.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/uploadform.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1207">
-              <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+            <state vertical-scroll-proportion="-14.384615" vertical-offset="612" max-vertical-offset="1428">
+              <caret line="58" column="6" selection-start-line="58" selection-start-column="6" selection-end-line="58" selection-end-column="6" />
               <folding>
                 <element signature="e#6#88#0#PHP" expanded="true" />
               </folding>
@@ -74,8 +74,8 @@
         <option value="$PROJECT_DIR$/mkdir.php" />
         <option value="$PROJECT_DIR$/chdirform.php" />
         <option value="$PROJECT_DIR$/rmdir.php" />
-        <option value="$PROJECT_DIR$/uploadform.php" />
         <option value="$PROJECT_DIR$/mkdirform.php" />
+        <option value="$PROJECT_DIR$/uploadform.php" />
       </list>
     </option>
   </component>
@@ -181,7 +181,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1296" height="744" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -324,20 +324,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mkdirform.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.076923" vertical-offset="540" max-vertical-offset="1241">
-          <caret line="64" column="62" selection-start-line="64" selection-start-column="62" selection-end-line="64" selection-end-column="62" />
-          <folding>
-            <element signature="e#6#88#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/uploadform.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1207">
-          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+        <state vertical-scroll-proportion="-14.384615" vertical-offset="612" max-vertical-offset="1428">
+          <caret line="58" column="6" selection-start-line="58" selection-start-column="6" selection-end-line="58" selection-end-column="6" />
           <folding>
             <element signature="e#6#88#0#PHP" expanded="true" />
           </folding>
@@ -346,12 +336,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rmdir.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9347079" vertical-offset="0" max-vertical-offset="663">
+        <state vertical-scroll-proportion="-20.923077" vertical-offset="0" max-vertical-offset="663">
           <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
           <folding>
             <element signature="e#19#101#0#PHP" expanded="true" />
             <marker date="1427541696774" expanded="true" signature="597:785" placeholder="..." />
             <marker date="1427541696774" expanded="true" signature="620:765" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mkdirform.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7371134" vertical-offset="659" max-vertical-offset="1241">
+          <caret line="64" column="62" selection-start-line="64" selection-start-column="62" selection-end-line="64" selection-end-column="62" />
+          <folding>
+            <element signature="e#6#88#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
