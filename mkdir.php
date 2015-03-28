@@ -47,7 +47,7 @@ if(ftp_mkdir($link, $direct."/".$name)){
     if(ftp_chmod($link, $mode, $direct."/".$name)){
 
         echo "<html>
-                <meta http-equiv='REFRESH' content='0' url=index.php?dir=$dir />
+                <meta http-equiv='REFRESH' content='0 url=index.php?dir=$dir' />
             </html>";
     }
     else
