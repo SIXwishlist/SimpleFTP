@@ -3,12 +3,13 @@
  * Created by PhpStorm.
  * User: Андрей
  * Date: 28.03.2015
- * Time: 20:47
+ * Time: 22:59
  */
 
 // Get name of dir that mast be changed
 $dir = $_GET['dir'];
 $name = substr($dir, strrpos($dir, "%")+1);
+$dir = substr($dir, 0, strrpos($dir, "%"));
 $acc = $_GET['acc'];
 
 /*******************************/
@@ -62,12 +63,13 @@ else
     $ox = "";
 
 if(!isset($title))
-    $title = 'Переименование директории';
+    $title = 'Переименование файла';
 if(!isset($button))
     $button = 'Исправить';
 if(!isset($action))
     $action = 'chdir.php';
 
 // Include HTML form
-include "uploadform.php";
+include "mkdirform.php";
+
 ?>
