@@ -70,6 +70,6 @@ if(!isset($action))
     $action = 'chdir.php';
 
 // Include HTML form
-include "mkdirform.php";
+include "uploadform.php";
 
 ?>

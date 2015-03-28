@@ -69,5 +69,5 @@ if(!isset($action))
     $action = 'chdir.php';
 
 // Include HTML form
-include "uploadform.php";
+include "mkdirform.php";
 ?>
