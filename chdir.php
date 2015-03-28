@@ -1,3 +1,4 @@
+Подождите...
 <?php
 /**
  * Created by PhpStorm.
@@ -54,3 +55,4 @@ if(ftp_rename($link, $direct."/".$old, $direct.'/'.$name)){
 }
 else
     puterror("Не удается переименовать директорию");
+?>
